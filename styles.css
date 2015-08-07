@@ -1,0 +1,40 @@
+h1 {
+
+    color: black;
+}
+ html {
+    font-family: sans-serif;
+  }
+
+body {
+
+    background-color: white;
+}
+p.white {
+
+    color: white;
+    text-decoration-color: white;
+}
+text.white {
+
+    color: #fff;
+}
+.margin {
+    margin: 20px;
+}
+.unmargin {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+.margin-logo {
+    padding-left: 20px;
+}
+.hat {
+    background-image: url("img/wer.jpg");
+    margin-top: 0px;
+}
+.badge {
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 80%;
+}
