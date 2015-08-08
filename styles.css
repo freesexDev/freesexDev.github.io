@@ -1,11 +1,6 @@
-h1 {
-
-    color: black;
-}
- html {
+html {
     font-family: sans-serif;
   }
-
 body {
 
     background-color: white;
@@ -15,26 +10,40 @@ p.white {
     color: white;
     text-decoration-color: white;
 }
-text.white {
+textwhite {
 
     color: #fff;
 }
 .margin {
     margin: 20px;
 }
-.unmargin {
-    margin-left: -30px;
-    margin-right: -30px;
-}
-.margin-logo {
-    padding-left: 20px;
-}
 .hat {
+    height: 562px;
     background-image: url("img/wer.jpg");
     margin-top: 0px;
 }
 .badge {
+    margin-top: -40px;
     padding-right: 30px;
     padding-left: 30px;
-    width: 80%;
+}
+.shadow {
+    -webkit-box-shadow: 1px 2px 4px 0px rgba(117,117,117,1); 
+	-moz-box-shadow: 1px 2px 4px 0px rgba(117,117,117,1); 
+	box-shadow: 1px 2px 4px 0px rgba(117,117,117,1);
+}
+.ezCard {
+    border-radius: 2px;
+	background-color: #fff;
+	height: auto;
+}
+.ezCardElement {
+    padding: 16px;
+}
+.ezCardText {
+    padding-top: 20px;
+    font-size: 26pt;
+}
+.left-text {
+    padding-left: 25px;
 }
